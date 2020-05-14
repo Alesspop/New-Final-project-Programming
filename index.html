@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1> French Quiz</h1>
+
+    <div class="quiz_wrapper">
+
+            <div class="question" id="questionBox">
+           
+            </div>
+                
+            <div class="options">
+                <ul>
+                    <li id="opt1" onClick="button(this)"></li>
+                    <li id="opt2" onClick="button(this)"></li>
+                    <li id="opt3" onClick="button(this)"></li>
+                    <li id="opt4" onClick="button(this)"></li>
+                </ul>
+            </div>
+            <div class="score">
+                <div class="next">
+                    <button type="button">Next</button>
+                </div>
+                <div class="score-card">
+                    Score : <span id="scoreCard"></span>
+                </div>
+            </div>
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
